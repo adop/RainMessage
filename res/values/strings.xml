@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">勿忘伞</string>
+    <string name="action_exit">退出应用</string>
+   
+	<string name="message">短信内容</string>
+	<string name="send"> 发送</string>
+	<string name="start">已启用</string>
+	<string name="stop"> 保存并启用</string>
+	<string name="save"> 保存</string>
+	<string name="inputCity"> 输入TA的城市</string>
+	<string name="inputNumber"> TA的号码</string>
+	<string name="inputTiming"> 输入时间 </string>
+</resources>

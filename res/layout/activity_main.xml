@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/inputCity"
+        />     
+    <EditText 
+        android:id="@+id/txtCity"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"        
+        />
+    <TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/inputTiming"
+        />
+             
+  	<TimePicker
+		android:id="@+id/my_TimePicker"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="10px"
+		android:layout_y="150px">
+	</TimePicker>
+	
+    <TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/inputNumber"
+        />       
+    <EditText 
+        android:id="@+id/txtPhoneNo"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"        
+        />
+    <TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"         
+        android:text="@string/message"
+        />     
+    <EditText 
+        android:id="@+id/txtMessage"  
+        android:layout_width="fill_parent" 
+        android:layout_height="150px"
+        android:gravity="top"         
+        />          
+	 <Button 
+    	android:id="@+id/saveConfig"  
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/save"
+	/>
+        
+     <ToggleButton 
+    	android:id="@+id/toggleBtnSendSMS"  
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:textOn="@string/start"
+   		android:textOff="@string/stop"
+   		android:onClick="onToggleClicked"/>
+</LinearLayout>
